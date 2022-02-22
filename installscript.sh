@@ -339,7 +339,7 @@ check_os_comp() {
   esac
 
   # exit if not supported
-  if [ "$SUPPORTED" == false ]; then
+  if [ "$SUPPORTED" == true ]; then
     echo "* $OS $OS_VER is supported."
   else
     echo "* $OS $OS_VER is not supported"
